@@ -74,7 +74,7 @@ Use `TTGTextTagCollectionView` to show text tags.
 import TTGTags
 // Create TTGTextTagCollectionView view
 let tagView = TTGTextTagCollectionView.init(frame: CGRect(x: 20, y: 100, width: 200, height: 200))
-self.view .addSubview(tagView)
+self.view.addSubview(tagView)
 // Create TTGTextTag object
 let textTag = TTGTextTag(content: TTGTextTagStringContent(text: "tutuge"), style: TTGTextTagStyle())
 // Add tag
